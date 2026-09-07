@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ad20bf258c4df2ba87310572a9f54d, type: 3}
+  m_Name: BallData
+  m_EditorClassIdentifier: 
+  explosionRadius: 4
+  damage: 1
+  throwEffect: {fileID: 8300000, guid: d1c9b7336e126f14f8b024ea8c026591, type: 3}
+  explodeEffect: {fileID: 8300000, guid: dc54c89e2a5d0324f8812ec05d295c98, type: 3}
