@@ -17,6 +17,5 @@ public class PersistentXRRig : MonoBehaviour
 
         // No rig exists yet (started from Main Menu, or testing directly in this scene)
         Instance = this;
-        DontDestroyOnLoad(gameObject);
     }
 }

@@ -70,7 +70,6 @@ public class SceneMenuManager : MonoBehaviour
         }
 
         Instance = this;
-        DontDestroyOnLoad(gameObject);
     }
 
     private void OnEnable()

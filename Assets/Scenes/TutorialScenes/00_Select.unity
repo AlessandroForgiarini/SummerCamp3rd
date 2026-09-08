@@ -445,26 +445,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1151483654806008229, guid: 1fd8892844515fc45bb82fe9f14993b1, type: 3}
-      propertyPath: bButtonAction.m_UseReference
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151483654806008229, guid: 1fd8892844515fc45bb82fe9f14993b1, type: 3}
-      propertyPath: bButtonAction.m_Action.m_Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151483654806008229, guid: 1fd8892844515fc45bb82fe9f14993b1, type: 3}
-      propertyPath: bButtonAction.m_Action.m_ExpectedControlType
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151483654806008229, guid: 1fd8892844515fc45bb82fe9f14993b1, type: 3}
-      propertyPath: bButtonAction.m_Action.m_SingletonActionBindings.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151483654806008229, guid: 1fd8892844515fc45bb82fe9f14993b1, type: 3}
-      propertyPath: bButtonAction.m_Action.m_SingletonActionBindings.Array.data[0].m_Id
-      value: f17f0892-dc65-4fbb-a470-21a86fa85b92
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151483654806008229, guid: 1fd8892844515fc45bb82fe9f14993b1, type: 3}
       propertyPath: bButtonAction.m_Action.m_SingletonActionBindings.Array.data[1].m_Id
       value: 6e97c8cb-4559-4dd6-a1ad-0253f06137aa
       objectReference: {fileID: 0}
@@ -479,10 +459,6 @@ PrefabInstance:
     - target: {fileID: 1151483654806008229, guid: 1fd8892844515fc45bb82fe9f14993b1, type: 3}
       propertyPath: bButtonAction.m_Action.m_SingletonActionBindings.Array.data[4].m_Id
       value: 1a70a7e3-f5eb-4d30-aba9-a865c850fb80
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151483654806008229, guid: 1fd8892844515fc45bb82fe9f14993b1, type: 3}
-      propertyPath: bButtonAction.m_Action.m_SingletonActionBindings.Array.data[0].m_Path
-      value: <XRController>{RightHand}/{SecondaryButton}
       objectReference: {fileID: 0}
     - target: {fileID: 1151483654806008229, guid: 1fd8892844515fc45bb82fe9f14993b1, type: 3}
       propertyPath: bButtonAction.m_Action.m_SingletonActionBindings.Array.data[1].m_Name
@@ -521,10 +497,6 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1151483654806008229, guid: 1fd8892844515fc45bb82fe9f14993b1, type: 3}
-      propertyPath: bButtonAction.m_Action.m_SingletonActionBindings.Array.data[0].m_Action
-      value: B Button
-      objectReference: {fileID: 0}
-    - target: {fileID: 1151483654806008229, guid: 1fd8892844515fc45bb82fe9f14993b1, type: 3}
       propertyPath: bButtonAction.m_Action.m_SingletonActionBindings.Array.data[1].m_Action
       value: B Button
       objectReference: {fileID: 0}
@@ -546,7 +518,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2465945510411896177, guid: 1fd8892844515fc45bb82fe9f14993b1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.556
       objectReference: {fileID: 0}
     - target: {fileID: 2465945510411896177, guid: 1fd8892844515fc45bb82fe9f14993b1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -583,6 +555,10 @@ PrefabInstance:
     - target: {fileID: 2465945510411896178, guid: 1fd8892844515fc45bb82fe9f14993b1, type: 3}
       propertyPath: m_Name
       value: XR Origin (XR Rig)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2716869481771975923, guid: 1fd8892844515fc45bb82fe9f14993b1, type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
