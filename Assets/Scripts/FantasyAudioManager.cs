@@ -45,10 +45,11 @@ namespace UniudSummerCamp2025_2nd
             uiAudioSource.Play();
         }
 
-        public void PlayEffect(AudioSource audioSource, AudioClip clip, float volume = 1)
+        public void PlayEffect(AudioSource audioSource, AudioClip clip, float volume = 1, float pitch=1)
         {
             audioSource.outputAudioMixerGroup = effectsAudioMixerGroup;
             volume = Mathf.Clamp01(volume);
+            audioSource.pitch = pitch;
             audioSource.Stop();
             audioSource.PlayOneShot(clip, volume);
         }

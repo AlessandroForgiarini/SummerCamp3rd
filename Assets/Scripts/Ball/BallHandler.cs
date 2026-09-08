@@ -237,7 +237,27 @@ namespace UniudSummerCamp2025_2nd
         public void PlayExplodeEffect()
         {
             if (FantasyAudioManager.Instance == null) return;
-            FantasyAudioManager.Instance.PlayEffect(audioSource, ballData.explodeEffect);
+            float pitch;
+            switch (activeElementType)
+            {
+                case ElementType.INVALID:
+                    pitch = 1;
+                    break;
+                case ElementType.FIRE:
+                    pitch = 1;
+                    break;
+                case ElementType.WATER:
+                    pitch = 1.2f;
+                    break;
+                case ElementType.GRASS:
+                    pitch = 0.8f;
+                    break;
+                default: 
+                    pitch = 1; 
+                    break;
+            }
+
+            FantasyAudioManager.Instance.PlayEffect(audioSource, ballData.explodeEffect,volume:1, pitch:pitch);
         }
         #endregion
 
