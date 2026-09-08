@@ -5,6 +5,8 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 using TMPro;
+using System.Collections;
+
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -163,9 +165,15 @@ public class SceneMenuManager : MonoBehaviour
             Button btn = buttonObj.GetComponent<Button>();
             if (btn != null)
             {
-                btn.onClick.AddListener(() => LoadTargetScene(targetName));
+                btn.onClick.AddListener(() => StartCoroutine(WaitAndLoadScene(0.5f, targetName)));
             }
         }
+    }
+
+    private IEnumerator WaitAndLoadScene(float time, string targetScene)
+    {
+        yield return new WaitForSeconds(time);
+        LoadTargetScene(targetScene);
     }
 
     public void LoadTargetScene(string targetSceneName)
