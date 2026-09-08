@@ -456,6 +456,8 @@ MonoBehaviour:
     sceneName: 02_Grab_Cubes
   - sceneAsset: {fileID: 102900000, guid: 4b5523b32471d874ea12be40eb635683, type: 3}
     sceneName: 03_Basket_Collisions
+  - sceneAsset: {fileID: 102900000, guid: 6cbc1df2f6d685d4c8da5ccccc467cb5, type: 3}
+    sceneName: GameScene
   menuPanel: {fileID: 4870158777181202921}
   buttonPrefab: {fileID: 8928335931802954024, guid: 3b39b03cef341f04991974da7c57f0a8, type: 3}
   buttonContainer: {fileID: 7266839121894963199}
